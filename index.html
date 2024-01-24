@@ -33,7 +33,101 @@
         }
     </style>
 </head>
-<body>
-    
+<body class="font-manrope">
+    <header class="mx-3 lg:mx-24">
+        <!-- nav section -->
+        <nav>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a class="text-primary_color font-bold">Home</a></li>
+                            <li><a class="font-bold">About</a></li>
+                            <li><a class="font-bold">Pages</a></li>
+                            <li><a class="font-bold">Blog</a></li>
+                            <li><a class="font-bold">contact</a></li>
+                        </ul>
+                    </div>
+                    <a class="cursor-pointer lg:text-4xl lg:font-extrabold">Hockey<span class="text-primary_color">’</span>s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a class="text-primary_color font-bold">Home</a></li>
+                        <li><a class="font-bold">About</a></li>
+                        <li><a class="font-bold">Pages</a></li>
+                        <li><a class="font-bold">Blog</a></li>
+                        <li><a class="font-bold">contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end flex flex-row gap-3">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 cursor-pointer">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                      </svg>
+                      
+                    <a class="btn lg:text-lg bg-primary_color text-white lg:font-bold">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- slide section  -->
+        <div class="carousel w-full mt-10">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+              <img src="Images/1.png" class="w-full" />
+              <div class="lg:absolute invisible lg:visible text-white lg:p-8 lg:h-40 lg:w-3/5 rounded-md lg:rounded-2xl bg-black lg:right-8 lg:bottom-8">
+                <h3 class="mb-4 font-extrabold text-2xl">Meet all the heroes from the field</h3>
+                <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+              </div>
+              <div class="absolute flex justify-center lg:justify-start transform -translate-y-1/2 left-5 right-5 top-3/4">
+                <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❯</a>
+              </div>
+            </div>
+          </div>
+          <!-- badge section  -->
+          <div class="text-white p-2 mt-4 rounded-2xl bg-black lg:hidden">
+            <h3 class=" font-extrabold text-1xl">Meet all the heroes from the field</h3>
+            <p>Celebrate hockey excellence. Meet every field hero, their stories, and the moments that define their legendary status.</p>
+          </div>
+    </header>
 </body>
 </html>
